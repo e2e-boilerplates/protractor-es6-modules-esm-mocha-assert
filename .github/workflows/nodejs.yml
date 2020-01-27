@@ -1,4 +1,4 @@
-name: protractor-es6-modules-esm-mocha-chai
+name: protractor-es6-modules-esm-mocha-assert
 
 on:
   push:
