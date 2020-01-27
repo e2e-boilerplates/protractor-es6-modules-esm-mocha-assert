@@ -1,4 +1,4 @@
-const { expect } = require("chai");
+import { strictEqual } from "assert";
 
 describe("Sandbox", () => {
   before(() => {
@@ -9,9 +9,7 @@ describe("Sandbox", () => {
     const title = await browser.getTitle();
     const header = element(by.css("h1"));
 
-    expect(title).to.equal("Sandbox");
-    header.getText().then(h => {
-      expect(h).to.equal("Sandbox");
-    });
+    strictEqual(title, "Sandbox");
+    strictEqual(await header.getText(), "Sandbox");
   });
 });
