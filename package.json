@@ -5,12 +5,14 @@
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor -r esm protractor.conf.js",
-    "test-ci": "npx protractor -r esm protractor-ci.conf.js"
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor -r esm"
   },
   "keywords": [
     "protractor",
-    "es6 modules",
+    "es6",
+    "e2e",
+    "e2e test",
     "esm",
     "mocha",
     "assert",
@@ -37,8 +39,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "dependencies": {
-    "puppeteer": "2.1.1"
   }
 }

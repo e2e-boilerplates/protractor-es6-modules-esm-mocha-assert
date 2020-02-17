@@ -2,7 +2,7 @@
 
 [![GitHub Actions status | e2e-boilerplates/protractor-es6-modules-esm-mocha-assert](https://github.com/e2e-boilerplates/protractor-es6-modules-esm-mocha-assert/workflows/protractor-es6-modules-esm-mocha-assert/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6-modules-esm-mocha-assert/actions?workflow=protractor-es6-modules-esm-mocha-assert)
 
-Protractor end-to-end test automation boilerplate, using ES6-Modules, ESM, Mocha and Assert.
+Protractor end-to-end test automation boilerplate, using ES6 modules, ESM, Mocha and Assert.
 
 ## Getting Started
 
