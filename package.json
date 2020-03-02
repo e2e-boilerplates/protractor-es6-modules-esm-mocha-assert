@@ -1,36 +1,17 @@
 {
-  "name": "protractor-es6-modules-esm-mocha-assert",
-  "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha and Assert",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
-    "test": "npx protractor -r esm"
-  },
-  "keywords": [
-    "protractor",
-    "es6",
-    "e2e",
-    "e2e test",
-    "esm",
-    "mocha",
-    "assert",
-    "boilerplate",
-    "example"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha and Assert",
   "devDependencies": {
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "esm": "3.2.25",
     "husky": "3.1.0",
     "jasmine": "3.5.0",
-    "mocha": "7.0.1",
+    "mocha": "7.1.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.0",
     "protractor": "5.4.3"
@@ -39,5 +20,30 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "esm",
+    "example",
+    "integration test",
+    "mocha",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-es6-modules-esm-mocha-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-esm-mocha-assert.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor -r esm"
+  },
+  "version": "1.0.0"
 }
