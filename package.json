@@ -23,22 +23,22 @@
   },
   "keywords": [
     "assert",
-    "es modules",
+    "es",
     "esm",
     "mocha",
     "protractor"
   ],
   "license": "MIT",
-  "name": "protractor-es6-modules-esm-mocha-assert",
+  "name": "protractor-es-modules-esm-mocha-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-esm-mocha-assert.git"
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es-modules-esm-mocha-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor -r esm",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
+    "update-webdriver": "npx webdriver-manager update",
+    "update-webdriver:ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
   },
   "version": "1.0.0"
 }
