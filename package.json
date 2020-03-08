@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha and Assert",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "protractor end-to-end test automation boilerplate.",
   "devDependencies": {
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
@@ -23,8 +23,13 @@
   },
   "keywords": [
     "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
     "es",
     "esm",
+    "example",
+    "integration test",
     "mocha",
     "protractor"
   ],
