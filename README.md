@@ -6,8 +6,12 @@ Protractor end-to-end test automation boilerplate, using ES Modules, esm, Mocha 
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/protractor-es-modules-esm-mocha-assert.git
-    	cd protractor-es-modules-esm-mocha-assert
-    	npm install
-    	npm run update-webdriver
-    	npm run test
+1. git clone git@github.com:e2e-boilerplate/protractor-es-modules-esm-mocha-assert.git
+
+2. cd protractor-es-modules-esm-mocha-assert
+
+3. npm install
+
+4. npm run update-webdriver
+
+5. npm run test
