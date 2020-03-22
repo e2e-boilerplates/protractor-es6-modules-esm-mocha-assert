@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-mocha-assert/issues"
   },
+  "dependencies": {},
   "description": "Protractor end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Assert.",
   "devDependencies": {
     "eslint": "6.5.1",
@@ -26,12 +27,7 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
     "esm",
-    "example",
-    "integration test",
     "mocha",
     "protractor"
   ],
@@ -46,6 +42,5 @@
     "test": "npx protractor -r esm",
     "update-webdriver": "npx webdriver-manager update"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
