@@ -12,4 +12,4 @@ describe("Sandbox", () => {
     assert.strictEqual(title, "Sandbox");
     assert.strictEqual(await header.getText(), "Sandbox");
   });
-});
+}).timeout(20000);
