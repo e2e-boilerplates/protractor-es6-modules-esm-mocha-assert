@@ -2,7 +2,7 @@
     
 # Protractor Boilerplate
     
-Protractor end-to-end test automation boilerplate, Using ES Modules, esm, Mocha and Assert.
+Protractor end-to-end test automation boilerplate, Using [ES Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), [esm](https://www.npmjs.com/package/esmjs), [Mocha](https://mochajs.org) and Assert.
     
 ## Getting Started
     
