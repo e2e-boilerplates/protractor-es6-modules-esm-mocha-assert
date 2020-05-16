@@ -28,15 +28,16 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
     "es modules",
     "esm",
-    "example",
-    "integration test",
     "mocha",
-    "protractor"
+    "protractor",
+    "e2e",
+    "e2e tests",
+    "boilerplate",
+    "integration test",
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
